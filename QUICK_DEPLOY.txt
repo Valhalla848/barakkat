@@ -1,0 +1,27 @@
+БЫСТРЫЙ ДЕПЛОЙ НА СЕРВЕР
+========================
+
+Запустите файл: deploy.bat
+
+Или выполните команды вручную:
+
+1. Сборка:
+   npm run build
+
+2. Загрузка файлов (введите пароль: n5qtmQX8Q2):
+   scp -r dist/* root@84.247.168.237:/var/www/autstaf2/
+   scp package.json root@84.247.168.237:/var/www/autstaf2/
+   scp server.js root@84.247.168.237:/var/www/autstaf2/
+
+3. Настройка сервера (введите пароль: n5qtmQX8Q2):
+   ssh root@84.247.168.237
+   cd /var/www/autstaf2
+   npm install express --save
+   pm2 stop autstaf2
+   pm2 delete autstaf2
+   PORT=3002 pm2 start server.js --name autstaf2
+   pm2 save
+   exit
+
+Сайт будет доступен: http://84.247.168.237:3002
+
