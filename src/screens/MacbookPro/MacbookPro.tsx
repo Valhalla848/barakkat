@@ -40,8 +40,8 @@ export const MacbookPro = (): JSX.Element => {
       link: "Заказать услугу",
     },
     {
-      title: "Постройочная уборка",
-      description: "Устранение последствий ремонта и строительства",
+      title: "Подбор персонала",
+      description: "Подбор персонала любой сложности",
       link: "Заказать услугу",
     },
     {
@@ -284,7 +284,7 @@ export const MacbookPro = (): JSX.Element => {
                     src="/free-icon-telegram-5968804-2.png"
                   /> */}
                   <div className="[font-family:'Inter',Helvetica] font-medium text-[#313642] text-sm sm:text-base lg:text-xl">
-                    +7 (926)144-44-11
+                  +8 (926)144-14-11
                   </div>
                 </div>
                 <Button
@@ -323,7 +323,7 @@ export const MacbookPro = (): JSX.Element => {
                       src="/free-icon-telegram-5968804-2.png"
                     />
                     <div className="[font-family:'Inter',Helvetica] font-medium text-[#313642] text-base">
-                    +7 (926)144-44-11
+                    +8 (926)144-14-11
                     </div>
                   </div>
                 </div>
@@ -345,7 +345,7 @@ export const MacbookPro = (): JSX.Element => {
                   className="[font-family:'Inter',Helvetica] font-bold text-white text-4xl sm:text-5xl md:text-6xl lg:text-[70.4px] tracking-[0] leading-tight sm:leading-[1.1] lg:leading-[77.4px] mb-6 sm:mb-8 animate-fade-up"
                   style={withDelay(0.2)}
                 >
-                  Бараккат: мир вашему дому
+                  Барракат: мир вашему дому
                   <br />чистота начинается с вас!
                 </h1>
 
@@ -400,7 +400,7 @@ export const MacbookPro = (): JSX.Element => {
                       className="block h-full w-full"
                     >
                       <img
-                        src="/home.jpg"
+                        src="/home2.jpg"
                         alt="Рабочая команда"
                         className="h-full w-full object-cover"
                       />
@@ -720,7 +720,7 @@ export const MacbookPro = (): JSX.Element => {
 
             <div className="text-center mt-8 sm:mt-12">
               <div className="[font-family:'Inter',Helvetica] text-2xl sm:text-3xl lg:text-[36px] font-semibold leading-tight sm:leading-[42px] text-[#1f2331]">
-                +7 (926)144-44-11
+                +8 (926)144-14-11
               </div>
             </div>
           </div>
@@ -790,7 +790,7 @@ export const MacbookPro = (): JSX.Element => {
                   />
                 </div>
                 <div className="[font-family:'Inter',Helvetica] font-light text-white text-xl sm:text-2xl lg:text-[33px] leading-tight sm:leading-[36.1px] mb-4 sm:mb-6">
-                +7 (926)144-44-11
+                +8 (926)144-14-11
                 </div>
                 <div className="[font-family:'Comfortaa',Helvetica] font-normal text-white text-lg sm:text-xl lg:text-[33px] tracking-[0] leading-tight sm:leading-[36.1px] mb-4 sm:mb-6">
                 barakat_ooo2024@mail.ru
@@ -821,7 +821,7 @@ export const MacbookPro = (): JSX.Element => {
                   </p>
                 </div>
                 <div className="[font-family:'Inter',Helvetica] font-light text-white text-xl sm:text-2xl lg:text-[33px] text-center leading-tight sm:leading-[36.1px]">
-                +7 (926)144-44-11
+                +8 (926)144-14-11
                 </div>
               </div>
             </div>
